@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    tools:context=".fragment.JobConfirmationFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/colorWhite">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Job Confirmation"
+            android:textSize="@dimen/eighteen_textsize"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:textAlignment="center"
+            android:gravity="center_vertical"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="Tasker Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="Enter your name"
+            android:padding="10dp"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="15dp"
+            android:text="Booking Time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="7:30 am"
+            android:padding="10dp"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="15dp"
+            android:text="Booking Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="27th Oct"
+            android:padding="10dp"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="15dp"
+            android:text="Message"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve_textsize" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/colorWhite"
+            android:hint=""
+            android:textSize="@dimen/twelve_textsize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/confirm_booking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Confirm Booking"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/fourteen"
+            android:textAllCaps="false"
+            android:layout_gravity="bottom"
+            android:background="#3ac18f"/>
+
+
+        <Button
+            android:id="@+id/cancel_booking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel Booking"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/fourteen"
+            android:textAllCaps="false"
+            android:layout_gravity="bottom"
+            android:background="#b6b2b2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

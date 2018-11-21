@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/linear_date_time"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/addAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="Add Your Address"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_action_next"
+            android:drawableLeft="@drawable/ic_action_facebook_placeholder_for_locate_places_on_maps"
+            android:drawableTint="@color/colorBlack"
+            android:drawablePadding="5dp"
+            android:textSize="@dimen/fourteen_textsize"
+            android:background="@drawable/button_backgroung_rectangle"/>
+
+        <TextView
+            android:id="@+id/your_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="Your Address :
+    Basantapur - Chainpur - Khandbari, Chainpur 568099, Nepal"
+            android:padding="15dp"
+            android:textSize="@dimen/fourteen_textsize"
+            android:layout_marginTop="15dp"
+            android:drawablePadding="5dp"
+            android:background="@drawable/button_backgroung_rectangle"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shedule Date and Time"
+            android:textSize="@dimen/sixteen_textsize"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:textSize="@dimen/fourteen_textsize"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/etChooseTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="11:00 PM"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_action_clock"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/button_backgroung_rectangle"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textSize="@dimen/fourteen_textsize"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/btnDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="Apr.08 2018"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_action_calendar_with_a_clock_time_tools"
+            android:drawablePadding="5dp"
+            android:background="@drawable/button_backgroung_rectangle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your special instruction"
+            android:padding="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/button_backgroung_rectangle"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_select_partners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/gradient_color"/>
+
+</RelativeLayout>

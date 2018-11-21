@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_action_home"/>
+
+    <item android:id="@+id/my_orders"
+        android:title="My Orders"
+        android:icon="@drawable/ic_action_order"/>
+
+    <item android:id="@+id/wallet"
+        android:title="Wallet"
+        android:icon="@drawable/ic_action_walletss"
+        />
+    <item android:id="@+id/transactions"
+        android:title="Transactions"
+        android:icon="@drawable/ic_action_transactions"/>
+
+    <item android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/ic_action_chat"/>
+
+    <item android:id="@+id/notification"
+        android:title="Notification"
+        android:icon="@drawable/ic_action_turn_notifications"
+        />
+    <item android:id="@+id/reviews"
+        android:title="Reviews"
+        android:icon="@drawable/ic_action_invitation"/>
+
+    <item android:id="@+id/invite_friends"
+        android:title="Invite Friends"
+        android:icon="@drawable/ic_action_rating"/>
+
+    <item android:id="@+id/report_issues"
+        android:title="Report Issues"
+        android:icon="@drawable/ic_action_report_issues"/>
+
+    <item android:id="@+id/about_us"
+        android:title="About Us"
+        android:icon="@drawable/ic_action_information"/>
+
+    <item android:id="@+id/logout"
+        android:title="LogOut"
+        android:icon="@drawable/ic_action_logout"/>
+
+</menu>

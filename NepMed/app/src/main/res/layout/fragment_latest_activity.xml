@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/gradient_background_color">
+
+        <EditText
+            android:id="@+id/search_editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Search for Prescription Medicines or Products"
+            android:textSize="@dimen/twelve"
+            android:drawablePadding="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_action_search"
+            android:background="@drawable/background_rectangle"/>z
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help Us to improve!"
+        android:textSize="@dimen/sixteen_textsize"
+        android:textColor="@color/black"
+        android:padding="10dp"/>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView"
+        android:background="@color/black">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/latestActivityRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </ScrollView>
+</RelativeLayout>
+

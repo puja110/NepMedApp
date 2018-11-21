@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:backgroundTint="@color/colorWhite"
+    android:background="@drawable/button_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:src="@drawable/profile_image"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Lists"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteen"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/eight"
+            android:layout_toRightOf="@+id/image"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="825 U.S. 1,Hodgdon, ME, USA"
+            android:layout_marginLeft="@dimen/eight"
+            android:textSize="@dimen/twelve"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_toRightOf="@+id/image"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/buttonOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Book Now"
+            android:padding="12dp"
+            android:textSize="@dimen/twelve"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/colorWhite"
+            android:background="#3ac18f"/>
+
+        <TextView
+            android:id="@+id/buttonTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Deselect"
+            android:padding="12dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="@dimen/twelve"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorRed"/>
+
+    </LinearLayout>
+</LinearLayout>

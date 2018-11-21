@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#88ffffff"
+    tools:context=".fragment.ConfirmBookingFragment">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_action_confirms"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations"
+        android:textSize="@dimen/eighteen_textsize"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your booking is submitted"
+        android:textSize="@dimen/fourteen_textsize"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="0dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="waiting for confirmation"
+        android:textSize="@dimen/fourteen_textsize"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Id"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/fourteen_textsize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01B2234"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/fourteen_textsize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service Type"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/fourteen_textsize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plumbing"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/fourteen_textsize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Id"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/fourteen_textsize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Date"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="@dimen/fourteen_textsize"/>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:background="#3ac18f"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fourteen_textsize"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
